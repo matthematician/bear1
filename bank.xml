@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>BEAR Math Placement Exam Practice, Part 1 (Algebra)</title>
+    <slug>bridgewater-bear-exam-1</slug>
+    <url>http://matthematician.github.io/bear</url>
+    <outcomes>
+        <outcome>
+            <title>Integer Arithmetic</title>
+            <slug>AR1</slug>
+            <path>outcomes/AR1</path>
+            <description>
+                Add, subtract, multiply, and divide integers up to two-digits, attending to negative signs.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Rational Number Arithmetic</title>
+            <slug>AR2</slug>
+            <path>outcomes/AR2</path>
+            <description>
+                Add, subtract, multiply, and divide rational numbers with denominators up to 36.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Expressions and Equations</title>
+            <slug>AR3</slug>
+            <path>outcomes/AR3</path>
+            <description>
+                Simplify expressions and solve equations of linear type.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Inequalities and Interval Notation</title>
+            <slug>EA1</slug>
+            <path>outcomes/EA1</path>
+            <description>
+               Solve linear inequalities, and use and understand interval notation.
+            </description>
+        </outcome>  
+        <outcome>
+            <title>Graphs and Forms of Linear Equations</title>
+            <slug>EA2</slug>
+            <path>outcomes/EA2</path>
+            <description>
+                Solve problems involving two-variable linear equations and their data points.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponent Properties</title>
+            <slug>EA3</slug>
+            <path>outcomes/EA3</path>
+            <description>
+                Simplify products and quotients of monomial expressions using exponent properties.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Expanding Polynomial Expressions</title>
+            <slug>EA4</slug>
+            <path>outcomes/EA4</path>
+            <description>
+               Simplify sums, differences, and products of polynomial expressions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Factoring Polynomial Expressions</title>
+            <slug>EA5</slug>
+            <path>outcomes/EA5</path>
+            <description>
+               Factor polynomial expressions using greatest common factor and quadratic-trinomial methods.
+            </description>
+        </outcome>
+<outcome>
+            <title>Using Factored Forms</title>
+            <slug>EA6</slug>
+            <path>outcomes/EA6</path>
+            <description>
+                Use polynomials' factored forms to simplify rational expressions and solve polynomial equations.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Rational Expression Arithmetic</title>
+            <slug>EA7</slug>
+            <path>outcomes/EA7</path>
+            <description>
+                Simplify sums, differences, products, and quotients of rational expressions with at least one common factor in their denominators.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Square-Root and Radical Expressions</title>
+            <slug>EA8</slug>
+            <path>outcomes/EA8</path>
+            <description>
+                Simplify expressions involving radicals, especially square roots.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Equations</title>
+            <slug>EA9</slug>
+            <path>outcomes/EA9</path>
+            <description>
+               Solve quadratic equations, including those that do not factor over the integers.
+            </description>
+        </outcome>
+      
+        
+    </outcomes>
+</bank>
