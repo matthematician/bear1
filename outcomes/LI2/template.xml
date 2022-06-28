@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Solve the inequality, and answer using interval notation:</p>
+        <p><m>{{a}} {{sgn}} {{c}}</m>.</p>
+        <p>  </p>
+        {{#choices}}
+        <p>({{letter}}).   <m>\quad{{interval}}</m></p>
+        {{/choices}}
+    </content>
+    <outtro>
+        <p><m>{{interval}}</m></p>
+    </outtro>
+</knowl>

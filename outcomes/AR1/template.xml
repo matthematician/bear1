@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Simplify: <m>{{a}} {{op}} {{b}} = </m>.</p>
+        <p> </p>
+        {{#choices}}
+        <p>({{letter}}).     <m>{{value}}</m></p>
+        {{/choices}}
+    </content>
+    <outtro>
+        <p>The correct choice is <m>\boxed{ {{c}}. }</m></p>
+        <p>If you chose <m>{{distractor}}</m>, you may have simplified <m>{{a}} {{nop}} {{b}}</m> instead. To avoid making this common error, see this as an <em>addition</em> problem and focus on how signs combine:</p>
+        <p>When {{oping}} two signed numbers, {{subadvice}} remember that in an addition problem, absolute values <em>add</em> when the numbers have the same sign and <em>subtract</em> if the nunbers have opposite signs.</p>
+        <p>In our addition problem <m>{{a}} + {{brt}}</m> the numbers have {{scomp}} signs. So we {{sdir}} their absolute values to obtain <m>{{aa}} {{sop}} {{ab}} = {{ac}}</m>.</p>
+        <p>Finally, we give this number its appropriate sign. {{ssign}} This means our result should be the {{sans}} number <m>{{c}}</m>.</p>
+    </outtro>
+</knowl>

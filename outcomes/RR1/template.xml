@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>{{prompt}} and simplify:</p>
+        <p><m>\dfrac{ {{n1}} }{ {{d1}} } {{op}} \dfrac{ {{n2}} }{ {{d2}} } =</m>.</p>
+                <p> </p>
+        {{#choices}}
+        <p>({{letter}}). <m>\quad \dfrac{ {{valuen}} }{ {{valued}} }</m></p>
+        {{/choices}}
+    </content>
+    <outtro>
+        <p><m>\dfrac{ {{answern}} }{ {{answerd}} }</m></p>
+    </outtro>
+</knowl>

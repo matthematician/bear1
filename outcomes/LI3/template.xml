@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>An equation for the line containing the points <m>({{x1}},{{y1}})</m> and <m>({{x2}},{{y2}})</m> is:</p>
+        <p>  </p>
+        {{#choices}}
+        <p>({{letter}}). <m>\quad y = {{rhs}}</m></p>
+        {{/choices}}
+    </content>
+    <outtro>
+        <p><m>y = {{answer}}</m></p>
+    </outtro>
+</knowl>

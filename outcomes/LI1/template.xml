@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Solve the equation for <m>{{var}}</m>:</p>
+        <p><m>{{a}}\bigl({{b}}\bigr) = {{c}}</m></p>
+        <p>  </p>
+        {{#choices}}
+        <p>({{letter}}).   <m>{{var}} = {{value}}</m></p>
+        {{/choices}}
+    </content>
+    <outtro>
+        <p>The correct answer is <m>\boxed{ {{var}} = {{answer}} .}</m></p>
+        <p>If you ended up with the answer <m>{{var}} = {{distractor}}</m> instead, it's likely that you didn't see the parentheses on the left-hand side of the equation. This is a common error that usually leads to an incorrect answer because the order of operations (parentheses come first!) was not followed in simplifying both sides of the equation.</p>
+        <p>Simplifying both sides of an equation before solving it is always a useful first step. Here, the multiplication by <m>{{a}}</m> by the quantity <m>( {{b}} )</m> can be simplified using the distributive property of multiplication over addition:</p>
+        <p><m>\quad {{a}} \bigl( {{b}} \bigr) = {{c}}</m></p>
+        <p><m>\quad {\color{blue} {{a}} \cdot {{bx}} + {{a}} \cdot {{bc}}} = {{c}}</m></p>
+        <p><m>\quad {{lhs}} = {{c}}</m></p>
+        <p>Now, getting the <m>{{var}}</m> by itself requires us to move all the <m>{{var}}</m>'s to the same side of the equation. A common error here is to use division instead of subtraction: we want to <em>subtract</em> because each of the variable terms <m>{{lx}}</m> and <m>{{rx}}</m> are <em>added</em> to the constants they're connected to.</p>
+        <p>We can subtract either one, as long as we do so from both sides of the equation. Let's subtract <m>{{rx}}</m> {{subadd}}:</p>
+        <p><m>\quad {{lhs}} \; {\color{blue} {{sop}} {{rrx}}} = {{c}} \; {\color{blue} {{sop}} {{rrx}}}</m></p>
+        <p><m>\quad {{llhs}} = {{rrhs}}</m></p>
+        <p>Here we have simplified <m>{{lx}} {{sop}} {{rrx}}</m>, which are like terms, by {{soping}} their coefficients.</p>
+        <p>Now, to "unwrap" the <m>{{var}}</m> on the left-hand side. Choosing to divide by <m>{{amc}}</m> first, while allowable in principle, is a step where students are prone to common error as well: dividing <m>{{amc}}{{var}}</m> by <m>{{amc}}</m> but forgetting to divide <m>{{ab}}</m> by <m>{{amc}}</m> as well. (If your answer was <m>{{var}} = {{distractor2}}</m>, this is probably what you did.)</p>
+        <p>A safer way is to think about using the order of operations backwards. If there is addition/subtraction on the left side, tackle it first; then, if there is multiplication/division remaining, tackle it afterward. Here, that means first {{oping}} the constant {{aab}} to both sides:</p>
+                <p><m>\quad {{llhs}} \; {\color{blue} {{op}} {{aab}}} = {{rrhs}}\; {\color{blue} {{op}} {{aab}}}</m></p>
+                <p><m>\quad {{lllhs}} = {{rrrhs}}</m></p>
+        <p>Now that there is no addition/subtraction left, our final step is to deal with the multiplication. We can get <m>{{var}}</m> by itself if we <em>divide</em> by <m>{{amc}}</m>:</p>
+        <p><m>\quad {\color{blue} \dfrac{ {\color{black} {{lllhs}}} }{ {{amc}} }} = {\color{blue}\dfrac{ {\color{black} {{rrrhs}}} }{ {{amc}} }}</m></p>
+        <p><m>\quad \boxed{ {{var}} = {{answer}}. }</m></p>
+    </outtro>
+</knowl>

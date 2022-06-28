@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Simplify, and answer in lowest terms: <m>\dfrac{ {{v}} }{ {{w}} } {{op}} \dfrac{ {{x}} }{ {{y}} } = </m></p>
+        <p>  </p>
+        {{#choices}}
+        <p>({{letter}}).   <m>\quad \displaystyle{{value}}</m></p>
+        {{/choices}}
+    </content>
+    <outtro>
+        <p>The correct answer is <m>\boxed{ {{answer}}. }</m></p>
+        <p>Adding and subtracting rational numbers is not a process that our brains find intuitive. So the first step is often to <em>slow down</em>: otherwise, we can fall prey to common errors.</p>
+        <p>If you chose <m>\displaystyle{{distractor}}</m>, you probably evaluated "straight across", <m>\dfrac{ {{v}} {{op}} {{x}} }{ {{w}} {{op}} {{y}} }</m>, committing the most common error: forgetting that addition and subtraction are impossible until the fractions have <em>common denominators</em>.</p>
+        <p>To find a common denominator and make our {{operation}} possible, we need to find any multiple that both <m>{{w}}</m> and <m>{{y}}</m> can agree on.</p>
+        <p><em>Criss-cross option.</em></p>
+        <p>One way to a common denominator is to simply multiply the denominators: <m>{{w}} \times {{y}} = {{wy}}</m>.</p>
+        <p>Some people find this to be the most straightforward approach, though it can give us more simplifying work to do at the end.</p>
+        <p>Next, we adjust the numerators so that the value of each fraction remains the same as before, multiplying them each by the same factor by which their denominators would be multiplied.</p>
+        <p>If we do use <m>{{w}} \times {{y}} = {{wy}}</m> as our common denominator, then we have multiplied each denominator by the denominator of the <em>other</em> fraction. So we would also need to multiply each numerator by the denominator of the other fraction in a "criss-cross" fashion: </p>
+        <p><m>\quad\dfrac{ {{v}} }{ {{w}} } {{op}} \dfrac{ {{x}} }{ {{y}} } = \dfrac{ {{v}} \times {{y}} }{ {{w}} \times {{y}} } {{op}} \dfrac{ {{w}} \times {{x}} }{ {{w}} \times {{y}} } = \dfrac{ {{vy}} }{ {{wy}} } {{op}} \dfrac{ {{wx}} }{ {{wy}} }</m></p>
+        <p>Now that the denominators are common, we can simplify the two fractions into one via {{operation}} of their numerators only:</p>
+        <p><m>\quad\dfrac{ {{vy}} }{ {{wy}} } {{op}} \dfrac{ {{wx}} }{ {{wy}} } = \dfrac{ {{vy}} {{op}} {{wx}} }{ {{wy}} } = \dfrac{ {{pn}} }{ {{wy}} }</m></p>
+        <p>Finally, and this is the step that typically takes longer in the "criss-cross option", we reduce this fraction into lowest terms by identifying and canceling all common factors.</p>
+        <p>The largest factor that <m>{{apn}}</m> and <m>{{wy}}</m> share in common is <m>{{gcf}}</m>. So we can divide both numerator and denominator by <m>{{gcf}}</m> to reduce the fraction:</p>
+        <p><m>\quad \dfrac{ {{pn}} }{ {{wy}} } = \dfrac{ {{pn}} \div {{gcf}} }{ {{wy}} \div {{gcf}} } = \boxed{ \displaystyle {{answer}} }</m>.</p>
+        <p><em>Least common multiple option.</em></p>
+        <p>Often, instead of multiplying denominators as above, we can use fewer steps by choosing a smaller common denominator.</p>
+        <p>The option which is smallest is called the least common multiple. We can find the least common multiple of <m>{{w}}</m> and <m>{{y}}</m> either by listing all multiples of each and finding the first one they both share:</p>
+        <p><m>\qquad {{wlist}},\ldots, \boxed{ {{lcm}} },\ldots,</m></p>
+        <p><m>\qquad {{ylist}},\ldots, \boxed{ {{lcm}} }, \ldots,</m></p>
+        <p>Or, we can identify the largest factor that both denominators share in common (their greatest common factor) and then divide their product by it. The greatest common factor of <m>{{w}}</m> and <m>{{y}}</m> is <m>{{dgcf}}</m>, so we can find their least common multiple by multiplying them together and dividing by <m>{{gcf}}</m>:</p>
+        <p><m>\quad {{ay}} \times {{aw}} \div {{dgcf}} = {{ay}}\times {{awg}} = \boxed{ {{lcm}}. }</m></p>
+        <p>Then, we convert each fraction so that its new denominator is <m>{{lcm}}</m>. This requires multiplying each numerator by the same factor by which its denominator is multiplied:</p>
+        <p><m>\quad \dfrac{ {{v}} }{ {{w}} } \tfrac{ \stackrel{\times ?}{\longrightarrow} }{\stackrel{\times ?}{\longrightarrow}} \dfrac{ \; }{ {{lcm}} }</m> Here the missing factor is <m>{{wlcm}}</m>, so we multiply both by <m>{{wlcm}}</m>:</p>
+        <p><m>\quad \dfrac{ {{v}} }{ {{w}} } \tfrac{ \stackrel{\times {{wlcm}} }{\longrightarrow} }{\stackrel{\times {{wlcm}} }{\longrightarrow}} \dfrac{ {{ww}} }{ {{lcm}} }</m></p>
+        <p><m>\quad \dfrac{ {{x}} }{ {{y}} } \tfrac{ \stackrel{\times ?}{\longrightarrow} }{\stackrel{\times ?}{\longrightarrow}} \dfrac{ \; }{ {{lcm}} }</m> Here the missing factor is <m>{{ylcm}}</m>, so we multiply both by <m>{{ylcm}}</m>:</p>
+        <p><m>\quad \dfrac{ {{x}} }{ {{y}} } \tfrac{ \stackrel{\times {{ylcm}} }{\longrightarrow} }{\stackrel{\times {{ylcm}} }{\longrightarrow}} \dfrac{ {{yy}} }{ {{lcm}} }</m></p>
+        <p>We're finally ready for the {{operation}} of these two fractions, since their denominators are the same. The {{operation}} of their numerators combines them:</p>
+        <p><m>\quad \dfrac{ {{ww}} }{ {{lcm}} } {{op}} \dfrac{ {{yy}} }{ {{lcm}} } = \dfrac{ {{ww}} {{op}} {{yy}} }{ {{lcm}} } = \dfrac{ {{wwyy}} }{ {{lcm}} }.</m></p>
+        <p>At this point we are usually done, having done the more challenging work up front in this method. If this fraction is not already in its lowest terms, we then reduce it to lowest terms to obtain our answer, <m>\boxed{ {{answer}} .}</m></p>
+    
+    </outtro>
+</knowl>
