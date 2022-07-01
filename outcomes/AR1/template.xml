@@ -4,7 +4,7 @@
         <p>Simplify: <m>{{a}} {{op}} {{b}} = </m>.</p>
         <p> </p>
         {{#choices}}
-        <p>({{letter}}).     <m>{{value}}</m></p>
+        <p>({{letter}}). <m>\quad {{value}}</m></p>
         {{/choices}}
     </content>
     <outtro>

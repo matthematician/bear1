@@ -9,6 +9,24 @@
         {{/choices}}
     </content>
     <outtro>
-        <p><m>{{interval}}</m></p>
+        <p>The correct answer is <m>\boxed{ \quad {{interval}} \quad}.</m></p>
+        <p>If you chose <m>{{distractor}}</m>, you probably either reversed the inequality when it was inappropriate to do so, or forgot to reverse when it <em>was</em> appropriate.</p>
+        <p>Remember that, in most ways, solving an inequality uses the same processes as solving an equation. Here, we choose steps that reverse the order of operations to "unwrap" the variable from the expression <m>{{a}}</m>.</p>
+        <p>Reversing the order of operations means to <em>first</em> look for opportunities to add/subtract from both sides.To begin, let's use {{soption}} to collect all the variable terms on one side of the inequality by {{soping}} <m>{{am}}{{var}}</m> on both sides.</p>
+        <p><m>\quad {{a}} {\color{blue} {{sop}} {{am}}{{var}} } {{sgn}} {{c}} {\color{blue} {{sop}} {{am}}{{var}} }</m></p>
+        <p><m>\quad {{n}} {{sgn}} {{pmm}}{{var}}.</m></p>
+        <p>Then, to get <m>{{var}}</m> by itself, we divide both sides by its coefficient <m>{{pmm}}</m>. Unlike addition and subtraction, which always preserve the direction of an inequality, when an inequality is multiplied or divided on both sides, its sign:</p>
+        <p><m>\qquad</m>...stays the same if we multiplied/divided by a positive number, or</p>
+        <p><m>\qquad</m>...reverses if we multiplied/divided by a negative number.</p>
+        <p>Since we are going to divide <em>by</em> the <em>{{spmm}}</em> number <m>{{pmm}}</m>, {{doesitflip}}:</p>
+        <p><m>\quad {\color{blue} \dfrac{ {\color{black} {{n}} } }{ {{pmm}} } } {\color{red} {{oppfsgn}} } {\color{blue} \dfrac{ {\color{black} {{pmm}}{{var}} } }{ {{pmm}} } }</m></p>
+        <p><m>\quad {{t}} {{oppfsgn}} {{var}}.</m></p>
+        <p>Finally, to make this inequality easier for us to read left-to-right, we'll reverse it to place the variable on the left side:</p>
+        <p><m>\quad {{var}} {{fsgn}} {{t}}.</m></p>
+        <p>In words, this solution means that the values of <m>{{var}}</m> that solve this inequality are "all values {{ftext}} <m>{{t}}</m>".</p>
+        <p>To write this solution using interval notation, we can begin by sketching it on a number line. Since the value <m>{{t}}</m> {{includ}} in the solution, we'll use {{circtype}} and shade all the numbers {{ftext}} that point.</p>
+        <p><image source="assets/LI2/generated/{{__seed__}}/numline.png" description="Shaded number line for this inequality"/></p>
+        <p>The left-hand end of this interval is <m>{{lend}}</m> and the right-hand end is <m>{{rend}}</m>.</p><p>In interval notation, infinity is never included (since it's not a number), so we place a round parenthesis next to it.</p><p>Meanwhile, since <m>{{t}}</m> {{includ}}, we'll place a {{ibrack}} next to it.</p>
+        <p>This makes the solution, in interval notation, <m>\boxed{\quad {{interval}}. \quad }</m></p>
     </outtro>
 </knowl>

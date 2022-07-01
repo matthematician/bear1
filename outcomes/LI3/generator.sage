@@ -24,6 +24,7 @@ class Generator(BaseGenerator):
         
 
         shuffle(clist)
+        dist = n*x+c
         
         ch = [
             {'letter': 'a', 'rhs': clist[0]},
@@ -40,5 +41,12 @@ class Generator(BaseGenerator):
             "x2": q[0],
             "y2": q[1],
             "choices": ch,
-            "answer": m*x+b
+            "answer": m*x+b,
+            "slope": m,
+            "intercept": b,
+            "mx": m*q[0],
+            "amx": abs(m*q[0]),
+            "op": "+" if m*q[0] < 0 else "-",
+            "ymmx": q[1] - m*q[0],
+            "distractor": dist
         }

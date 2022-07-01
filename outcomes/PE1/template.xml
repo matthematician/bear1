@@ -5,10 +5,10 @@
         <p><m>\bigl( {{A}} {{x}}^{ {{n}} }{{y}}^{ {{m}} } \bigr)^{-2} \cdot \bigl( {{mon2}} \bigr) = </m>.</p>
         <p> </p>
         {{#choices}}
-        <p>({{letter}}). <m>\quad {{value}}</m></p>
+        <p>({{letter}}). <m>\quad \displaystyle {{value}}</m></p>
         {{/choices}}
     </content>
     <outtro>
-        <p><m>{{answer}}</m></p>
+        <p><m>\displaystyle {{answer}}</m></p>
     </outtro>
 </knowl>

@@ -4,10 +4,36 @@
         <p>An equation for the line containing the points <m>({{x1}},{{y1}})</m> and <m>({{x2}},{{y2}})</m> is:</p>
         <p>  </p>
         {{#choices}}
-        <p>({{letter}}). <m>\quad y = {{rhs}}</m></p>
+        <p>({{letter}}). <m>\quad y = \displaystyle {{rhs}}</m></p>
         {{/choices}}
     </content>
     <outtro>
-        <p><m>y = {{answer}}</m></p>
+        <p>An equation for this line is <m>\boxed{\quad y = \displaystyle {{answer}}.\quad }</m></p>
+        <p>If your equation was <m>{{distractor}}</m> instead, you may have computed your slope as a "run over rise" (<m>x</m> values in numerator) instead of "rise over run" (<m>x</m>-values in denominator, which is the correct match for a line equation that's solved for <m>y</m>).</p>
+        <p><em>First, find the line's slope.</em></p>
+        <p>The slope of a line measures the ratio of the "rise" between two points (the difference in those points' <m>y</m>-coordinates) to the "run" (difference in <m>x</m>-coordinates). For these two points, the slope is</p>
+        <p><m>\quad m = \dfrac{y_2-y_1}{x_2-x_1} = \dfrac{ {{y2}} - {{y1}} }{ {{x2}} - {{x1}} } = \displaystyle{{slope}}.</m></p>
+        <p>From here, there are two approaches we could use to discover an equation for this line.</p>
+        <p><em>Slope-intercept approach.</em> The most popular approach among students is to use the slope-intercept equation template</p>
+        <p><m>\quad y = mx + b</m></p>
+        <p>where <m>m</m> is the slope of the line and <m>b</m> is its <m>y</m>-intercept.</p>
+        <p>Since we know already that the slope of this line is <m>m = {{slope}}</m>, we only need to determine a value for <m>b</m>, the <m>y</m>-intercept. To do that, we can select either one of our points and substitute both its coordinates and the slope into the template, and solve for <m>b</m>.</p>
+        <p>If we select <m>(x,y)=( {{x2}}, {{y2}} )</m> for example, then the template equation becomes</p>
+        <p><m>\quad {{y2}} = {{slope}} \bigl( {{x2}} \bigr) + b</m></p>
+                <p><m>\quad {{y2}} {\color{blue} {} {{op}} {{amx}} } = {{mx}} + b {\color{blue} {} {{op}} {{amx}} }</m></p>
+        <p><m> \quad {{intercept}} = b </m></p>
+        <p>Now that we know the intercept, we can put it into the template along with our slope to obtain <m>\boxed{ \quad y={{answer}}. \quad}</m></p>
+        <p><em>Point-slope approach.</em> Another option is to use the point-slope template</p>
+        <p><m>\quad y - y_1 = m\bigl( x - x_1 \bigr)</m>.</p>
+        <p>This approach is somewhat more straightforward in the beginning, and includes a little more arithmetic toward the end. We substitute the coordinates of (either) point, and the slope we found, into this template, and then simplify as desired.</p>
+        <p>Choosing, for example, <m>(x_1,y_1) = ({{x1}},{{y1}})</m>, and remembering our slope is <m>m = {{slope}}</m>, the template then becomes</p>
+        <p><m>\quad y - {{y1}} = {{slope}} \bigl( x - {{x1}} \bigr)</m></p>
+        <p>and we can simplify by solving for <m>y</m> by adding <m>{{y1}}</m> to both sides.</p>
+        <p><m>\quad y - {{y1}} {\color{blue} {} + {{y1}} } = {{slope}}\bigl( x - {{x1}} \bigr) {\color{blue} {} + {{y1}} } </m></p>
+        <p><m>\quad y = {{slope}} \bigl( x - {{x1}} \bigr) + {{y1}} </m></p>
+        Finally, we can simplify the right-hand side to taste.
+        <p><m>\quad y = {{slope}} x - {{slope}} \bigl({{x1}} \bigr) + {{y1}} </m></p>
+        <p><m>\boxed{\quad y = {{answer}}.\quad}</m></p>
+
     </outtro>
 </knowl>
