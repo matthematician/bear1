@@ -1030,4 +1030,611 @@ generator.sage  template.xml
 [m    [36m</outtro>
 </knowl>[m
 [94m~                                                                                                                                                                                                                               [16;1H~                                                                                                                                                                                                                               [17;1H~                                                                                                                                                                                                                               [18;1H~                                                                                                                                                                                                                               [19;1H~                                                                                                                                                                                                                               [20;1H~                                                                                                                                                                                                                               [21;1H~                                                                                                                                                                                                                               [22;1H~                                                                                                                                                                                                                               [23;1H~                                                                                                                                                                                                                               [24;1H~                                                                                                                                                                                                                               [25;1H~                                                                                                                                                                                                                               [26;1H~                                                                                                                                                                                                                               [27;1H~                                                                                                                                                                                                                               [28;1H~                                                                                                                                                                                                                               [29;1H~                                                                                                                                                                                                                               [30;1H~                                                                                                                                                                                                                               [31;1H~                                                                                                                                                                                                                               [32;1H~                                                                                                                                                                                                                               [33;1H~                                                                                                                                                                                                                               [34;1H~                                                                                                                                                                                                                               [35;1H~                                                                                                                                                                                                                               [36;1H~                                                                                                                                                                                                                               [37;1H~                                                                                                                                                                                                                               [38;1H~                                                                                                                                                                                                                               [39;1H~                                                                                                                                                                                                                               [40;1H~                                                                                                                                                                                                                               [41;1H~                                                                                                                                                                                                                               [42;1H~                                                                                                                                                                                                                               [43;1H~                                                                                                                                                                                                                               [44;1H~                                                                                                                                                                                                                               [45;1H~                                                                                                                                                                                                                               [46;1H~                                                                                                                                                                                                                               [47;1H~                                                                                                                                                                                                                               [48;1H~                                                                                                                                                                                                                               [49;1H~                                                                                                                                                                                                                               [m[50;207H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[50;197H:[1;1H[50;1H[K[50;1H:[?2004h[?25hq![?25l[?2004l[23;2t[23;1t[50;1H[K[50;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;~/matt-salomone/bear1/outcomes[01;34m~/matt-salomone/bear1/outcomes[00m$ vim r[KRR3/[K[K[K[K[K[K[K[Kclear
-[H[2J[3J]0;~/matt-salomone/bear1/outcomes[01;34m~/matt-salomone/bear1/outcomes[00m$ ]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ ]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ ]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ 
+[H[2J[3J]0;~/matt-salomone/bear1/outcomes[01;34m~/matt-salomone/bear1/outcomes[00m$ ]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ ]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ ]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ clear
+[H[2J[3J]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ git add -A
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ git om[K[Kcommit -m "Narrative explaners [K[K[K[K[Kineres thro[K[K[K[K[K[K[Ks through LI3"
+[main 56bf5cc] Narrative explainers through LI3
+ 250 files changed, 1153 insertions(+), 179 deletions(-)
+ create mode 100644 .bear1-dashboard.ipynb.sage-jupyter2
+ create mode 100644 .bear1-terminal.term-0.term
+ rewrite assets/AR1/generated/preview.json (100%)
+ create mode 100644 assets/LI2/generated/0002/numline.png
+ create mode 100644 assets/LI2/generated/0005/numline.png
+ create mode 100644 assets/LI2/generated/0006/numline.png
+ create mode 100644 assets/LI2/generated/0009/numline.png
+ create mode 100644 assets/LI2/generated/0012/numline.png
+ create mode 100644 assets/LI2/generated/0017/numline.png
+ create mode 100644 assets/LI2/generated/0018/numline.png
+ create mode 100644 assets/LI2/generated/0020/numline.png
+ create mode 100644 assets/LI2/generated/0025/numline.png
+ create mode 100644 assets/LI2/generated/0040/numline.png
+ create mode 100644 assets/LI2/generated/0042/numline.png
+ create mode 100644 assets/LI2/generated/0044/numline.png
+ create mode 100644 assets/LI2/generated/0048/numline.png
+ create mode 100644 assets/LI2/generated/0056/numline.png
+ create mode 100644 assets/LI2/generated/0077/numline.png
+ create mode 100644 assets/LI2/generated/0078/numline.png
+ create mode 100644 assets/LI2/generated/0086/numline.png
+ create mode 100644 assets/LI2/generated/0087/numline.png
+ create mode 100644 assets/LI2/generated/0088/numline.png
+ create mode 100644 assets/LI2/generated/0093/numline.png
+ create mode 100644 assets/LI2/generated/0098/numline.png
+ create mode 100644 assets/LI2/generated/0102/numline.png
+ create mode 100644 assets/LI2/generated/0109/numline.png
+ create mode 100644 assets/LI2/generated/0110/numline.png
+ create mode 100644 assets/LI2/generated/0117/numline.png
+ create mode 100644 assets/LI2/generated/0118/numline.png
+ create mode 100644 assets/LI2/generated/0119/numline.png
+ create mode 100644 assets/LI2/generated/0123/numline.png
+ create mode 100644 assets/LI2/generated/0129/numline.png
+ create mode 100644 assets/LI2/generated/0130/numline.png
+ create mode 100644 assets/LI2/generated/0131/numline.png
+ create mode 100644 assets/LI2/generated/0136/numline.png
+ create mode 100644 assets/LI2/generated/0141/numline.png
+ create mode 100644 assets/LI2/generated/0144/numline.png
+ create mode 100644 assets/LI2/generated/0146/numline.png
+ create mode 100644 assets/LI2/generated/0148/numline.png
+ create mode 100644 assets/LI2/generated/0149/numline.png
+ create mode 100644 assets/LI2/generated/0151/numline.png
+ create mode 100644 assets/LI2/generated/0158/numline.png
+ create mode 100644 assets/LI2/generated/0159/numline.png
+ create mode 100644 assets/LI2/generated/0160/numline.png
+ create mode 100644 assets/LI2/generated/0165/numline.png
+ create mode 100644 assets/LI2/generated/0169/numline.png
+ create mode 100644 assets/LI2/generated/0172/numline.png
+ create mode 100644 assets/LI2/generated/0174/numline.png
+ create mode 100644 assets/LI2/generated/0182/numline.png
+ create mode 100644 assets/LI2/generated/0189/numline.png
+ create mode 100644 assets/LI2/generated/0197/numline.png
+ create mode 100644 assets/LI2/generated/0199/numline.png
+ create mode 100644 assets/LI2/generated/0200/numline.png
+ create mode 100644 assets/LI2/generated/0202/numline.png
+ create mode 100644 assets/LI2/generated/0208/numline.png
+ create mode 100644 assets/LI2/generated/0210/numline.png
+ create mode 100644 assets/LI2/generated/0211/numline.png
+ create mode 100644 assets/LI2/generated/0215/numline.png
+ create mode 100644 assets/LI2/generated/0218/numline.png
+ create mode 100644 assets/LI2/generated/0233/numline.png
+ create mode 100644 assets/LI2/generated/0240/numline.png
+ create mode 100644 assets/LI2/generated/0245/numline.png
+ create mode 100644 assets/LI2/generated/0249/numline.png
+ create mode 100644 assets/LI2/generated/0250/numline.png
+ create mode 100644 assets/LI2/generated/0251/numline.png
+ create mode 100644 assets/LI2/generated/0252/numline.png
+ create mode 100644 assets/LI2/generated/0253/numline.png
+ create mode 100644 assets/LI2/generated/0254/numline.png
+ create mode 100644 assets/LI2/generated/0255/numline.png
+ create mode 100644 assets/LI2/generated/0258/numline.png
+ create mode 100644 assets/LI2/generated/0259/numline.png
+ create mode 100644 assets/LI2/generated/0262/numline.png
+ create mode 100644 assets/LI2/generated/0263/numline.png
+ create mode 100644 assets/LI2/generated/0267/numline.png
+ create mode 100644 assets/LI2/generated/0271/numline.png
+ create mode 100644 assets/LI2/generated/0277/numline.png
+ create mode 100644 assets/LI2/generated/0280/numline.png
+ create mode 100644 assets/LI2/generated/0285/numline.png
+ create mode 100644 assets/LI2/generated/0287/numline.png
+ create mode 100644 assets/LI2/generated/0301/numline.png
+ create mode 100644 assets/LI2/generated/0304/numline.png
+ create mode 100644 assets/LI2/generated/0307/numline.png
+ create mode 100644 assets/LI2/generated/0309/numline.png
+ create mode 100644 assets/LI2/generated/0312/numline.png
+ create mode 100644 assets/LI2/generated/0318/numline.png
+ create mode 100644 assets/LI2/generated/0320/numline.png
+ create mode 100644 assets/LI2/generated/0321/numline.png
+ create mode 100644 assets/LI2/generated/0323/numline.png
+ create mode 100644 assets/LI2/generated/0324/numline.png
+ create mode 100644 assets/LI2/generated/0325/numline.png
+ create mode 100644 assets/LI2/generated/0327/numline.png
+ create mode 100644 assets/LI2/generated/0335/numline.png
+ create mode 100644 assets/LI2/generated/0336/numline.png
+ create mode 100644 assets/LI2/generated/0337/numline.png
+ create mode 100644 assets/LI2/generated/0340/numline.png
+ create mode 100644 assets/LI2/generated/0343/numline.png
+ create mode 100644 assets/LI2/generated/0347/numline.png
+ create mode 100644 assets/LI2/generated/0349/numline.png
+ create mode 100644 assets/LI2/generated/0350/numline.png
+ create mode 100644 assets/LI2/generated/0357/numline.png
+ create mode 100644 assets/LI2/generated/0358/numline.png
+ create mode 100644 assets/LI2/generated/0359/numline.png
+ create mode 100644 assets/LI2/generated/0363/numline.png
+ create mode 100644 assets/LI2/generated/0367/numline.png
+ create mode 100644 assets/LI2/generated/0368/numline.png
+ create mode 100644 assets/LI2/generated/0372/numline.png
+ create mode 100644 assets/LI2/generated/0377/numline.png
+ create mode 100644 assets/LI2/generated/0378/numline.png
+ create mode 100644 assets/LI2/generated/0380/numline.png
+ create mode 100644 assets/LI2/generated/0397/numline.png
+ create mode 100644 assets/LI2/generated/0398/numline.png
+ create mode 100644 assets/LI2/generated/0403/numline.png
+ create mode 100644 assets/LI2/generated/0406/numline.png
+ create mode 100644 assets/LI2/generated/0429/numline.png
+ create mode 100644 assets/LI2/generated/0431/numline.png
+ create mode 100644 assets/LI2/generated/0433/numline.png
+ create mode 100644 assets/LI2/generated/0437/numline.png
+ create mode 100644 assets/LI2/generated/0441/numline.png
+ create mode 100644 assets/LI2/generated/0446/numline.png
+ create mode 100644 assets/LI2/generated/0448/numline.png
+ create mode 100644 assets/LI2/generated/0454/numline.png
+ create mode 100644 assets/LI2/generated/0457/numline.png
+ create mode 100644 assets/LI2/generated/0459/numline.png
+ create mode 100644 assets/LI2/generated/0461/numline.png
+ create mode 100644 assets/LI2/generated/0462/numline.png
+ create mode 100644 assets/LI2/generated/0468/numline.png
+ create mode 100644 assets/LI2/generated/0473/numline.png
+ create mode 100644 assets/LI2/generated/0477/numline.png
+ create mode 100644 assets/LI2/generated/0481/numline.png
+ create mode 100644 assets/LI2/generated/0484/numline.png
+ create mode 100644 assets/LI2/generated/0486/numline.png
+ create mode 100644 assets/LI2/generated/0496/numline.png
+ create mode 100644 assets/LI2/generated/0497/numline.png
+ create mode 100644 assets/LI2/generated/0498/numline.png
+ create mode 100644 assets/LI2/generated/0510/numline.png
+ create mode 100644 assets/LI2/generated/0513/numline.png
+ create mode 100644 assets/LI2/generated/0518/numline.png
+ create mode 100644 assets/LI2/generated/0519/numline.png
+ create mode 100644 assets/LI2/generated/0520/numline.png
+ create mode 100644 assets/LI2/generated/0524/numline.png
+ create mode 100644 assets/LI2/generated/0545/numline.png
+ create mode 100644 assets/LI2/generated/0547/numline.png
+ create mode 100644 assets/LI2/generated/0549/numline.png
+ create mode 100644 assets/LI2/generated/0552/numline.png
+ create mode 100644 assets/LI2/generated/0553/numline.png
+ create mode 100644 assets/LI2/generated/0557/numline.png
+ create mode 100644 assets/LI2/generated/0572/numline.png
+ create mode 100644 assets/LI2/generated/0579/numline.png
+ create mode 100644 assets/LI2/generated/0581/numline.png
+ create mode 100644 assets/LI2/generated/0583/numline.png
+ create mode 100644 assets/LI2/generated/0587/numline.png
+ create mode 100644 assets/LI2/generated/0590/numline.png
+ create mode 100644 assets/LI2/generated/0596/numline.png
+ create mode 100644 assets/LI2/generated/0604/numline.png
+ create mode 100644 assets/LI2/generated/0607/numline.png
+ create mode 100644 assets/LI2/generated/0614/numline.png
+ create mode 100644 assets/LI2/generated/0618/numline.png
+ create mode 100644 assets/LI2/generated/0620/numline.png
+ create mode 100644 assets/LI2/generated/0621/numline.png
+ create mode 100644 assets/LI2/generated/0637/numline.png
+ create mode 100644 assets/LI2/generated/0638/numline.png
+ create mode 100644 assets/LI2/generated/0640/numline.png
+ create mode 100644 assets/LI2/generated/0641/numline.png
+ create mode 100644 assets/LI2/generated/0645/numline.png
+ create mode 100644 assets/LI2/generated/0648/numline.png
+ create mode 100644 assets/LI2/generated/0653/numline.png
+ create mode 100644 assets/LI2/generated/0658/numline.png
+ create mode 100644 assets/LI2/generated/0661/numline.png
+ create mode 100644 assets/LI2/generated/0662/numline.png
+ create mode 100644 assets/LI2/generated/0666/numline.png
+ create mode 100644 assets/LI2/generated/0672/numline.png
+ create mode 100644 assets/LI2/generated/0677/numline.png
+ create mode 100644 assets/LI2/generated/0681/numline.png
+ create mode 100644 assets/LI2/generated/0684/numline.png
+ create mode 100644 assets/LI2/generated/0687/numline.png
+ create mode 100644 assets/LI2/generated/0690/numline.png
+ create mode 100644 assets/LI2/generated/0693/numline.png
+ create mode 100644 assets/LI2/generated/0699/numline.png
+ create mode 100644 assets/LI2/generated/0705/numline.png
+ create mode 100644 assets/LI2/generated/0706/numline.png
+ create mode 100644 assets/LI2/generated/0711/numline.png
+ create mode 100644 assets/LI2/generated/0713/numline.png
+ create mode 100644 assets/LI2/generated/0714/numline.png
+ create mode 100644 assets/LI2/generated/0716/numline.png
+ create mode 100644 assets/LI2/generated/0717/numline.png
+ create mode 100644 assets/LI2/generated/0720/numline.png
+ create mode 100644 assets/LI2/generated/0722/numline.png
+ create mode 100644 assets/LI2/generated/0724/numline.png
+ create mode 100644 assets/LI2/generated/0725/numline.png
+ create mode 100644 assets/LI2/generated/0731/numline.png
+ create mode 100644 assets/LI2/generated/0732/numline.png
+ create mode 100644 assets/LI2/generated/0747/numline.png
+ create mode 100644 assets/LI2/generated/0756/numline.png
+ create mode 100644 assets/LI2/generated/0757/numline.png
+ create mode 100644 assets/LI2/generated/0766/numline.png
+ create mode 100644 assets/LI2/generated/0767/numline.png
+ create mode 100644 assets/LI2/generated/0771/numline.png
+ create mode 100644 assets/LI2/generated/0772/numline.png
+ create mode 100644 assets/LI2/generated/0776/numline.png
+ create mode 100644 assets/LI2/generated/0779/numline.png
+ create mode 100644 assets/LI2/generated/0789/numline.png
+ create mode 100644 assets/LI2/generated/0791/numline.png
+ create mode 100644 assets/LI2/generated/0795/numline.png
+ create mode 100644 assets/LI2/generated/0798/numline.png
+ create mode 100644 assets/LI2/generated/0811/numline.png
+ create mode 100644 assets/LI2/generated/0817/numline.png
+ create mode 100644 assets/LI2/generated/0818/numline.png
+ create mode 100644 assets/LI2/generated/0820/numline.png
+ create mode 100644 assets/LI2/generated/0822/numline.png
+ create mode 100644 assets/LI2/generated/0836/numline.png
+ create mode 100644 assets/LI2/generated/0841/numline.png
+ create mode 100644 assets/LI2/generated/0857/numline.png
+ create mode 100644 assets/LI2/generated/0859/numline.png
+ create mode 100644 assets/LI2/generated/0864/numline.png
+ create mode 100644 assets/LI2/generated/0866/numline.png
+ create mode 100644 assets/LI2/generated/0875/numline.png
+ create mode 100644 assets/LI2/generated/0887/numline.png
+ create mode 100644 assets/LI2/generated/0899/numline.png
+ create mode 100644 assets/LI2/generated/0901/numline.png
+ create mode 100644 assets/LI2/generated/0903/numline.png
+ create mode 100644 assets/LI2/generated/0904/numline.png
+ create mode 100644 assets/LI2/generated/0912/numline.png
+ create mode 100644 assets/LI2/generated/0924/numline.png
+ create mode 100644 assets/LI2/generated/0926/numline.png
+ create mode 100644 assets/LI2/generated/0933/numline.png
+ create mode 100644 assets/LI2/generated/0961/numline.png
+ create mode 100644 assets/LI2/generated/0965/numline.png
+ create mode 100644 assets/LI2/generated/0966/numline.png
+ create mode 100644 assets/LI2/generated/0970/numline.png
+ create mode 100644 assets/LI2/generated/0979/numline.png
+ create mode 100644 assets/LI2/generated/0981/numline.png
+ create mode 100644 assets/LI2/generated/0985/numline.png
+ create mode 100644 assets/LI2/generated/0988/numline.png
+ create mode 100644 assets/LI2/generated/0995/numline.png
+ create mode 100644 assets/LI2/generated/0996/numline.png
+ rewrite assets/LI2/generated/preview.json (100%)
+ rewrite assets/LI3/generated/preview.json (98%)
+ delete mode 100644 dashboard.ipynb
+ create mode 100644 outcomes/AR1/.template.xml-0.term
+ create mode 100644 outcomes/AR1/.template.xml.sage-chat
+ create mode 100644 outcomes/LI3/.template.xml-0.term
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ history
+    1  python -m pip install --upgrade pip
+    2  python -m pip install checkit-dashboard
+    3  python -m pip install checkit-dashboard==0.2.0b1
+    4  python -m pip install --upgrade checkit-dashboard
+    5  python -m pip show checkit
+    6  python -m pip show checkit-dashboard
+    7  python -m pip install --upgrade checkit-dashboard
+    8  python -m checkit
+    9  git init
+   10  git add -A
+   11  git commit -m "my awesome bank"
+   12  git config --global user.email "steven.clontz@gmail.com"
+   13  git config --global user.name "Steven Clontz"
+   14  git commit -m "my awesome bank"
+   15  git status
+   16  git log
+   17  git remote add origin git@github.com:StevenClontz/sturdy-memory.git
+   18  git branch -M main
+   19  git push -u origin main
+   20  pwd
+   21  git
+   22  clear
+   23  pwd
+   24  mkdir temp
+   25  cd temp
+   26  git clone https://github.com/matthematician/vecit
+   27  pwd
+   28  ls
+   29  mv vecit/.git/ ../
+   30  cd ..
+   31  ls
+   32  ls -al
+   33  rm -rf temp/
+   34  ls
+   35  clear
+   36  git push remote
+   37  git push
+   38  git commit -m "June18 Updates"
+   39  git add *
+   40  git commit -m "June18 Updates"
+   41  git push
+   42  git add *
+   43  git commit -m "Clearing out N1/generated old dir structure"
+   44  git push
+   45  clear
+   46  pwd
+   47  git add *
+   48  git commit -m "All Core topics updated banks. Still potentially issues with D3 and V3"
+   49  git push
+   50  git add *
+   51  git commit -m "Jun20 Rebuilt bank, still D3/V3 issues?"
+   52  git push
+   53  git push remote
+   54  git push
+   55  clear
+   56  exit
+   57  clear
+   58  git status
+   59  clear
+   60  git config --global core.askpass "git-gui--askpass"
+   61  git push
+   62  pwd
+   63  ls
+   64  wget http://matthematics.com/index.html
+   65  clear
+   66  pwd
+   67  ls
+   68  git branch core
+   69  git status
+   70  git add *
+   71  git commit -m "Core update Jun21 All outcomes working"
+   72  git status
+   73  git branch
+   74  git branch remote core
+   75  git status
+   76  git branch
+   77  git push -u origin main:core
+   78  git push -u origin main:final
+   79  git merge final:main
+   80  git checkout main
+   81  git merge final
+   82  get merge origin/final
+   83  git merge origin/final
+   84  pwd
+   85  git pull https://github.com/matthematician/bear1/
+   86  git pull https://github.com/matthematician/bear1
+   87  git
+   88  git clone https://github.com/matthematician/bear1
+   89  ls
+   90  ls -al
+   91  rm -rf bear1
+   92  cd ..
+   93  git clone https://github.com/matthematician/bear1
+   94  cd bear1
+   95  git init
+   96  git add *
+   97  git commit -m "Initial commit, bank only"
+   98  git remote add origin git@github.com:matthematician/bear1.git
+   99  git push -u -f origin main
+  100  git remote add origin matthematician@github.com:matthematician/bear1.git
+  101  git push origin main
+  102  git pull
+  103  whoami
+  104  git pull-request
+  105  clear
+  106  git status
+  107  git branch
+  108  git push origin master
+  109  clear
+  110  git remote 
+  111  git remote change origin
+  112  git remote remove origin
+  113  git remote add origin https://github.com/matthematician/bear1
+  114  git push
+  115  git push -u -f origin main
+  116  git push -u -f origin master
+  117  git pull-request
+  118  clear
+  119  pwd
+  120  git push -u -f origin master
+  121  git checkout
+  122  git checkout --theirs master
+  123  git checkout master
+  124  git branch
+  125  git branch main
+  126  git branch
+  127  git checkout main
+  128  git checkout --theirs *
+  129  git push -u -f origin main
+  130  git status
+  131  git checkout --theirs
+  132  git checkout master
+  133  git checkout --theirs *
+  134  git diff
+  135  git diff main master
+  136  git checkout --ours *
+  137  ls
+  138  git add *
+  139  git checkout main
+  140  git add *
+  141  git commit -m "Initial commit bank only"
+  142  git add *
+  143  git commit -m "Initial commit bank only"
+  144  git push -u -f origin main
+  145  git dire
+  146  git diff
+  147  git
+  148  git status
+  149  rm .bear1-terminal.term-0.term 
+  150  git status
+  151  cd bear2
+  152  cd ../bear2
+  153  git init
+  154  git add *
+  155  git commit -m "Initial commit bank only"
+  156  git remote add origin https://github.com/matthematician/bear2
+  157  git push -u -f origin main
+  158  git push -u -f origin
+  159  git push --set-upstream origin main
+  160  git status
+  161  git branch
+  162  git branch -m master main
+  163  git branch
+  164  git push -u -f origin main
+  165  clear
+  166  pwd
+  167  git add *
+  168  git commit -m "Repaired V3 errors"
+  169  git status
+  170  git push
+  171  git push origin final
+  172  git status
+  173  git push origin HEAD:final
+  174  pwd
+  175  cd outcomes/
+  176  ls
+  177  mv EX1-1/ AR1
+  178  ls
+  179  cp -r AR1/ AR2
+  180  cp -r AR2/ AR3
+  181  ls
+  182  mv AR3/ LI
+  183  mv LI/ LI1
+  184  cp -r AR1/ LI2/
+  185  cp -r AR1/ LI3
+  186  ls
+  187  cp -r AR1/ PE1
+  188  cp -r AR1/ PE2
+  189  cp -r AR1/ PE3
+  190  cp -r AR1/ PE4
+  191  cp -r AR1/ RR1
+  192  cp -r AR1/ RR2
+  193  cp -r AR1/ RR3
+  194  pwd
+  195  ls
+  196  mkdir outcoes
+  197  mv outcoes/ outcomes
+  198  cd outcomes/
+  199  cp -r ../../bear1/outcomes/AR1/ .
+  200  ls
+  201  mv AR1/ AC1
+  202  cp -r AC1/ AC2
+  203  cp -r AC1/ AC3
+  204  cp -r AC1/ AC4
+  205  cp -r AC1/ AC5
+  206  cp -r AC1/ EQ1
+  207  cp -r AC1/ EQ2
+  208  cp -r AC1/ EQ3
+  209  cp -r AC1/ GR1
+  210  cp -r AC1/ GR2
+  211  cp -r AC1/ GR3
+  212  cp -r AC1/ GR4
+  213  cp -r AC1/ GR5
+  214  cp -r AC1/ FN1
+  215  cp -r AC1/ FN2
+  216  cp -r AC1/ FN3
+  217  cp -r AC1/ FN4
+  218  cp -r AC1/ FN5
+  219  cp -r AC1/ FN6
+  220  cp -r AC1/ TR1
+  221  cp -r AC1/ TR2
+  222  cp -r AC1/ TR3
+  223  cp -r AC1/ TR4
+  224  cp -r AC1/ TR5
+  225  ls
+  226  pwd
+  227  git add *
+  228  git commit -m "All outcomes written, narratives through LI1"
+  229  git push
+  230  git pull
+  231  git push
+  232  pwd
+  233  cd outcomes/AR2/
+  234  ls
+  235  vim template.xml 
+  236  cd ..
+  237  ls
+  238  cd LI1
+  239  ls
+  240  vim template.xml 
+  241  cd ..
+  242  cd LI2/
+  243  ls
+  244  vim template.xml 
+  245  clear
+  246  emacs template.xml 
+  247  cd ..
+  248  cd LI3
+  249  ls
+  250  clear
+  251  vim template.xml 
+  252  cd ../LI4
+  253  ls
+  254  cd ..
+  255  ls
+  256  vim PE1/template.xml 
+  257  vim PE2/template.xml 
+  258  clear
+  259  vim PE3/template.xml 
+  260  vim PE4/template.xml 
+  261  vim RR1/template.xml 
+  262  clear
+  263  vim RR2/template.xml 
+  264  clear
+  265  pwd
+  266  ls
+  267  git branch
+  268  git remote branch
+  269  git remote set-head final
+  270  git pill
+  271  git pull
+  272  git add *
+  273  git commit -m "Added @tienchih's supplementary outcomes"
+  274  git config --global user.name "matthematician"
+  275  git config --global user.email "msalomone@gmail.com"
+  276  git commit -m "Added @tienchih's supplementary standards"
+  277  git push origin HEAD:final
+  278  git add *
+  279  git commit -m "Updated graphics for supp standards"
+  280  git push origin HEAD:final
+  281  clear
+  282  git add -A
+  283  git commit -m "Narrative explainers through LI3"
+  284  history
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ git branch
+[?1h=* [32mmain[m[m
+  master[m[m
+[K[?1l>]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ pwd
+/home/user/matt-salomone/bear1
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ git push
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': matthematician
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://matthematician@github.com': 
+To https://github.com/matthematician/bear1
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/matthematician/bear1'
+[m[33mhint: Updates were rejected because the remote contains work that you do[m
+[33mhint: not have locally. This is usually caused by another repository pushing[m
+[33mhint: to the same ref. You may want to first integrate the remote changes[m
+[33mhint: (e.g., 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ git pull
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 851 bytes | 425.00 KiB/s, done.
+From https://github.com/matthematician/bear1
+   621175e..61a4649  main       -> origin/main
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;50r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[48;106H(B[0;7m[ Reading... ](B[m[48;105H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                                             /home/user/matt-salomone/bear1/.git/MERGE_MSG                                                                                        [1;223H(B[m[49d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[49;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket   (B[0;7mM-Q(B[m Previous     (B[0;7m^B(B[m Back[49;188H(B[0;7m^◀(B[m Prev Word     (B[0;7m^A(B[m Home[50d(B[0;7m^X(B[m Exit[50;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[50;120H(B[0;7mM-6(B[m Copy Text    (B[0;7m^Q(B[m Where Was     (B[0;7mM-W(B[m Next[50;171H(B[0;7m^F(B[m Forward[188G(B[0;7m^▶(B[m Next Word     (B[0;7m^E(B[m End[48d[2d[39;49m(B[mMerge branch 'main' of https://github.com/matthematician/bear1 into main[3d[36m# Please enter a commit message to explain why this merge is necessary,[4d# especially if it merges an updated upstream into a topic branch.[5d#[6d# Lines starting with '#' will be ignored, and an empty message aborts[7d# the commit.[2d[39m(B[m[?12l[?25h[?25l[48d[J[50d[?12l[?25h[50;1H[?1049l[23;0;0t[?1l>[?2004l[KMerge made by the 'recursive' strategy.
+ README.md | 7 [32m++++++[m[31m-[m
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ ^C
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ git pullsh
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': matthematician
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://matthematician@github.com': 
+Enumerating objects: 350, done.
+Counting objects:   0% (1/332)Counting objects:   1% (4/332)Counting objects:   2% (7/332)Counting objects:   3% (10/332)Counting objects:   4% (14/332)Counting objects:   5% (17/332)Counting objects:   6% (20/332)Counting objects:   7% (24/332)Counting objects:   8% (27/332)Counting objects:   9% (30/332)Counting objects:  10% (34/332)Counting objects:  11% (37/332)Counting objects:  12% (40/332)Counting objects:  13% (44/332)Counting objects:  14% (47/332)Counting objects:  15% (50/332)Counting objects:  16% (54/332)Counting objects:  17% (57/332)Counting objects:  18% (60/332)Counting objects:  19% (64/332)Counting objects:  20% (67/332)Counting objects:  21% (70/332)Counting objects:  22% (74/332)Counting objects:  23% (77/332)Counting objects:  24% (80/332)Counting objects:  25% (83/332)Counting objects:  26% (87/332)Counting objects:  27% (90/332)Counting objects:  28% (93/332)Counting objects:  29% (97/332)Counting objects:  30% (100/332)Counting objects:  31% (103/332)Counting objects:  32% (107/332)Counting objects:  33% (110/332)Counting objects:  34% (113/332)Counting objects:  35% (117/332)Counting objects:  36% (120/332)Counting objects:  37% (123/332)Counting objects:  38% (127/332)Counting objects:  39% (130/332)Counting objects:  40% (133/332)Counting objects:  41% (137/332)Counting objects:  42% (140/332)Counting objects:  43% (143/332)Counting objects:  44% (147/332)Counting objects:  45% (150/332)Counting objects:  46% (153/332)Counting objects:  47% (157/332)Counting objects:  48% (160/332)Counting objects:  49% (163/332)Counting objects:  50% (166/332)Counting objects:  51% (170/332)Counting objects:  52% (173/332)Counting objects:  53% (176/332)Counting objects:  54% (180/332)Counting objects:  55% (183/332)Counting objects:  56% (186/332)Counting objects:  57% (190/332)Counting objects:  58% (193/332)Counting objects:  59% (196/332)Counting objects:  60% (200/332)Counting objects:  61% (203/332)Counting objects:  62% (206/332)Counting objects:  63% (210/332)Counting objects:  64% (213/332)Counting objects:  65% (216/332)Counting objects:  66% (220/332)Counting objects:  67% (223/332)Counting objects:  68% (226/332)Counting objects:  69% (230/332)Counting objects:  70% (233/332)Counting objects:  71% (236/332)Counting objects:  72% (240/332)Counting objects:  73% (243/332)Counting objects:  74% (246/332)Counting objects:  75% (249/332)Counting objects:  76% (253/332)Counting objects:  77% (256/332)Counting objects:  78% (259/332)Counting objects:  79% (263/332)Counting objects:  80% (266/332)Counting objects:  81% (269/332)Counting objects:  82% (273/332)Counting objects:  83% (276/332)Counting objects:  84% (279/332)Counting objects:  85% (283/332)Counting objects:  86% (286/332)Counting objects:  87% (289/332)Counting objects:  88% (293/332)Counting objects:  89% (296/332)Counting objects:  90% (299/332)Counting objects:  91% (303/332)Counting objects:  92% (306/332)Counting objects:  93% (309/332)Counting objects:  94% (313/332)Counting objects:  95% (316/332)Counting objects:  96% (319/332)Counting objects:  97% (323/332)Counting objects:  98% (326/332)Counting objects:  99% (329/332)Counting objects: 100% (332/332)Counting objects: 100% (332/332), done.
+Delta compression using up to 4 threads
+Compressing objects:   0% (1/170)Compressing objects:   1% (2/170)Compressing objects:   2% (4/170)Compressing objects:   3% (6/170)Compressing objects:   4% (7/170)Compressing objects:   5% (9/170)Compressing objects:   6% (11/170)Compressing objects:   7% (12/170)Compressing objects:   8% (14/170)Compressing objects:   9% (16/170)Compressing objects:  10% (17/170)Compressing objects:  11% (19/170)Compressing objects:  12% (21/170)Compressing objects:  13% (23/170)Compressing objects:  14% (24/170)Compressing objects:  15% (26/170)Compressing objects:  16% (28/170)Compressing objects:  17% (29/170)Compressing objects:  18% (31/170)Compressing objects:  19% (33/170)Compressing objects:  20% (34/170)Compressing objects:  21% (36/170)Compressing objects:  22% (38/170)Compressing objects:  23% (40/170)Compressing objects:  24% (41/170)Compressing objects:  25% (43/170)Compressing objects:  26% (45/170)Compressing objects:  27% (46/170)Compressing objects:  28% (48/170)Compressing objects:  29% (50/170)Compressing objects:  30% (51/170)Compressing objects:  31% (53/170)Compressing objects:  32% (55/170)Compressing objects:  33% (57/170)Compressing objects:  34% (58/170)Compressing objects:  35% (60/170)Compressing objects:  36% (62/170)Compressing objects:  37% (63/170)Compressing objects:  38% (65/170)Compressing objects:  39% (67/170)Compressing objects:  40% (68/170)Compressing objects:  41% (70/170)Compressing objects:  42% (72/170)Compressing objects:  43% (74/170)Compressing objects:  44% (75/170)Compressing objects:  45% (77/170)Compressing objects:  46% (79/170)Compressing objects:  47% (80/170)Compressing objects:  48% (82/170)Compressing objects:  49% (84/170)Compressing objects:  50% (85/170)Compressing objects:  51% (87/170)Compressing objects:  52% (89/170)Compressing objects:  53% (91/170)Compressing objects:  54% (92/170)Compressing objects:  55% (94/170)Compressing objects:  56% (96/170)Compressing objects:  57% (97/170)Compressing objects:  58% (99/170)Compressing objects:  59% (101/170)Compressing objects:  60% (102/170)Compressing objects:  61% (104/170)Compressing objects:  62% (106/170)Compressing objects:  63% (108/170)Compressing objects:  64% (109/170)Compressing objects:  65% (111/170)Compressing objects:  66% (113/170)Compressing objects:  67% (114/170)Compressing objects:  68% (116/170)Compressing objects:  69% (118/170)Compressing objects:  70% (119/170)Compressing objects:  71% (121/170)Compressing objects:  72% (123/170)Compressing objects:  73% (125/170)Compressing objects:  74% (126/170)Compressing objects:  75% (128/170)Compressing objects:  76% (130/170)Compressing objects:  77% (131/170)Compressing objects:  78% (133/170)Compressing objects:  79% (135/170)Compressing objects:  80% (136/170)Compressing objects:  81% (138/170)Compressing objects:  82% (140/170)Compressing objects:  83% (142/170)Compressing objects:  84% (143/170)Compressing objects:  85% (145/170)Compressing objects:  86% (147/170)Compressing objects:  87% (148/170)Compressing objects:  88% (150/170)Compressing objects:  89% (152/170)Compressing objects:  90% (153/170)Compressing objects:  91% (155/170)Compressing objects:  92% (157/170)Compressing objects:  93% (159/170)Compressing objects:  94% (160/170)Compressing objects:  95% (162/170)Compressing objects:  96% (164/170)Compressing objects:  97% (165/170)Compressing objects:  98% (167/170)Compressing objects:  99% (169/170)Compressing objects: 100% (170/170)Compressing objects: 100% (170/170), done.
+Writing objects:   0% (1/312)Writing objects:   1% (4/312)Writing objects:   2% (7/312)Writing objects:   3% (10/312)Writing objects:   4% (13/312)Writing objects:   5% (16/312)Writing objects:   6% (19/312)Writing objects:   7% (22/312)Writing objects:   8% (25/312)Writing objects:   9% (29/312)Writing objects:  10% (32/312)Writing objects:  11% (35/312)Writing objects:  12% (38/312)Writing objects:  13% (41/312)Writing objects:  14% (44/312)Writing objects:  15% (47/312)Writing objects:  16% (50/312)Writing objects:  17% (54/312)Writing objects:  18% (57/312)Writing objects:  19% (60/312)Writing objects:  20% (63/312)Writing objects:  21% (66/312)Writing objects:  22% (69/312)Writing objects:  23% (72/312)Writing objects:  24% (75/312)Writing objects:  25% (78/312)Writing objects:  26% (82/312)Writing objects:  27% (85/312)Writing objects:  28% (88/312)Writing objects:  29% (91/312)Writing objects:  30% (94/312)Writing objects:  31% (97/312)Writing objects:  32% (100/312)Writing objects:  33% (103/312)Writing objects:  34% (107/312)Writing objects:  35% (110/312)Writing objects:  36% (113/312)Writing objects:  37% (116/312)Writing objects:  38% (119/312)Writing objects:  39% (122/312)Writing objects:  40% (125/312)Writing objects:  41% (128/312)Writing objects:  42% (132/312)Writing objects:  43% (135/312)Writing objects:  44% (138/312)Writing objects:  45% (141/312)Writing objects:  46% (144/312)Writing objects:  47% (147/312)Writing objects:  48% (150/312)Writing objects:  49% (153/312)Writing objects:  50% (156/312)Writing objects:  51% (160/312)Writing objects:  52% (163/312)Writing objects:  53% (166/312)Writing objects:  54% (169/312)Writing objects:  55% (172/312)Writing objects:  56% (175/312)Writing objects:  57% (178/312)Writing objects:  58% (181/312)Writing objects:  59% (185/312)Writing objects:  60% (188/312)Writing objects:  61% (191/312)Writing objects:  62% (194/312)Writing objects:  63% (197/312)Writing objects:  64% (200/312)Writing objects:  65% (203/312)Writing objects:  66% (206/312)Writing objects:  67% (210/312)Writing objects:  68% (213/312)Writing objects:  69% (216/312)Writing objects:  70% (219/312)Writing objects:  71% (222/312)Writing objects:  72% (225/312)Writing objects:  73% (228/312)Writing objects:  74% (231/312)Writing objects:  75% (234/312)Writing objects:  76% (238/312)Writing objects:  77% (241/312)Writing objects:  78% (244/312)Writing objects:  79% (247/312)Writing objects:  80% (250/312)Writing objects:  81% (253/312)Writing objects:  82% (256/312)Writing objects:  83% (259/312)Writing objects:  84% (263/312)Writing objects:  85% (266/312)Writing objects:  86% (269/312)Writing objects:  87% (272/312)Writing objects:  88% (275/312)Writing objects:  89% (278/312)Writing objects:  90% (281/312)Writing objects:  91% (284/312)Writing objects:  92% (288/312)Writing objects:  93% (291/312)Writing objects:  94% (294/312)Writing objects:  95% (297/312)Writing objects:  96% (300/312)Writing objects:  97% (303/312)Writing objects:  98% (306/312)Writing objects:  99% (309/312)Writing objects: 100% (312/312)Writing objects: 100% (312/312), 430.36 KiB | 11.63 MiB/s, done.
+Total 312 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)[Kremote: Resolving deltas:  14% (1/7)[Kremote: Resolving deltas:  28% (2/7)[Kremote: Resolving deltas:  42% (3/7)[Kremote: Resolving deltas:  57% (4/7)[Kremote: Resolving deltas:  71% (5/7)[Kremote: Resolving deltas:  85% (6/7)[Kremote: Resolving deltas: 100% (7/7)[Kremote: Resolving deltas: 100% (7/7), completed with 4 local objects.[K
+To https://github.com/matthematician/bear1
+   61a4649..151342f  main -> main
+]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ [K]0;~/matt-salomone/bear1[01;34m~/matt-salomone/bear1[00m$ 
